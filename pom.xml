@@ -42,7 +42,7 @@
     <description>Office Documents related to Tawja Project</description>
     <inceptionYear>2015</inceptionYear>
 
-    <url>${project.organization.url}/project/maven/twj-workspace/</url>
+    <url>${project.organization.url}/project/maven/workspace/</url>
 
     <licenses>
         <license>
@@ -57,7 +57,7 @@
         <site>
             <id>tawja-website</id>
             <name>Tawja Documentation Website</name>
-            <url>scp://ftp.tawja.org/home/tawja/www/project/maven/twj-workspace/</url>
+            <url>scp://ftp.tawja.org/home/tawja/www/project/maven/workspace/</url>
         </site>
         <snapshotRepository>
             <uniqueVersion>false</uniqueVersion>
