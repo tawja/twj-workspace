@@ -75,7 +75,7 @@
     
     <scm>
         <connection>scm:git:git@github.com:tawja/twj-workspace.git</connection>
-		<developerConnection>scm:git@bitbucket.org:tawja/twj-workspace.git</developerConnection>
+		<developerConnection>scm:git:git@bitbucket.org:tawja/twj-workspace.git</developerConnection>
         <url>https://github.com/tawja/twj-workspace/tree/master</url>
         <tag>HEAD</tag>
     </scm>
