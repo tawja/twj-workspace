@@ -42,7 +42,7 @@
     <description>Office Documents related to Tawja Project</description>
     <inceptionYear>2015</inceptionYear>
 
-    <url>${project.organization.url}/project/workspace/</url>
+    <url>${project.organization.url}/project/workspace</url>
 
     <licenses>
         <license>
@@ -57,19 +57,19 @@
         <site>
             <id>tawja-website</id>
             <name>Tawja Documentation Website</name>
-            <url>${tawja.deploy.protocol}://ftp.tawja.org${tawja.deploy.path}/www/project/workspace/</url>
+            <url>${tawja.deploy.site.protocol}://${tawja.deploy.site.host}${tawja.deploy.webPath}/${tawja.deploy.envName}/${organization.domain}/project/workspace</url>
         </site>
         <snapshotRepository>
             <uniqueVersion>false</uniqueVersion>
             <id>tawja-snapshots</id>
             <name>Tawja Snapshots Repository</name>
-            <url>${tawja.deploy.protocol}://ftp.tawja.org${tawja.deploy.path}/www/repo/maven/snapshots</url>
+            <url>${tawja.deploy.protocol}://${tawja.deploy.host}/${tawja.deploy.webPath}/${tawja.deploy.envName}/${organization.domain}/repo/maven/snapshots</url>
         </snapshotRepository>
         <repository>
             <uniqueVersion>false</uniqueVersion>
             <id>tawja-releases</id>
             <name>Tawja Releases Repository</name>
-            <url>${tawja.deploy.protocol}://ftp.tawja.org${tawja.deploy.path}/www/repo/maven/releases</url>
+            <url>${tawja.deploy.protocol}://${tawja.deploy.host}/${tawja.deploy.webPath}/${tawja.deploy.envName}/${organization.domain}/maven/releases</url>
         </repository>
     </distributionManagement>
     
