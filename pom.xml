@@ -54,11 +54,23 @@
     </licenses>
 	
 	<properties>
-        <!-- Environment name with tawja-env-* profiles -->
-        <tawja.deploy.envName>test</tawja.deploy.envName>
-        <tawja.repo.envName>prod</tawja.repo.envName>
 	</properties>
     
+    <profiles>
+        <!-- Environment to sub-domains -->
+        <profile>
+            <id>tawja-env</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+            <properties>
+				<!-- Environment name with tawja-env-* profiles -->
+				<tawja.deploy.envName>test</tawja.deploy.envName>
+				<tawja.repo.envName>prod</tawja.repo.envName>
+            </properties>
+		</profile>
+	</profiles>
+	
     <distributionManagement>
         <site>
             <id>tawja-website</id>
